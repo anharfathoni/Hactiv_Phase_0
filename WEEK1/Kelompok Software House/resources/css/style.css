@@ -1,0 +1,401 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #4C89FF;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+
+nav {
+  margin: 0;
+  padding: 10px 0;
+}
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu a:hover{
+  color: #F0B200;
+  text-decoration: underline;
+}
+
+nav li {
+  color: #ffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size 12px;
+  display: inline-block;
+  width: 80px;
+}
+main {
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+.jumbotron img{
+  padding-top: 100px;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 70px;
+  font-family: "Hammersmith One",sans-serif;
+  margin: 0px auto 10px;
+  text-transform: uppercase;
+}
+.jumbotron h3 {
+  color: #fff;
+  font-family: 'Merienda', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 20px;
+  margin: 0px auto 50px;
+  padding-top: 10px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0px auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url("../images/header.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main  {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  background-color: #4C89FF;
+  margin-top: 30px;
+  padding: 16px 40px;
+  cursor: pointer;
+  border: 3px solid #fff;
+}
+.btn-main:hover{
+  background-color: #E57F00;
+}
+
+
+#about {
+  padding: 7rem 15% 5rem 15%;
+  margin-top: -50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../images/arch.jpg");
+}
+
+#about .about-menu {
+  padding: 0 5%;
+  margin-bottom: 0rem;
+
+}
+.about-menu p{
+  font-family: "Merriweather", Arial, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.375rem;
+  line-height: 35px;
+}
+.about-menu p span{
+  color: #ff8000;
+}
+
+
+#work {
+    padding-top: 50px;
+    background-color: rgb(146, 196, 255);
+    text-align: center;
+
+}
+.menu-section h1{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Hammersmith One";
+  color: #ff8000;
+}
+
+.supporting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.menu-section{
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.items {
+  flex: 2;
+  display: flex;
+  padding: 0px 200px;
+  justify-content: space-evenly;
+}
+
+.item {
+  flex: 2;
+  display: flex;
+  padding: 0px 200px;
+  justify-content: space-evenly;
+}
+
+.col img {
+  width: auto;
+  height: auto;
+  max-width: 40%;
+  max-height: 30%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  flex: 1 1 auto;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-family: "Merriweather"
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 250px;
+  display: inline-block;
+  padding: 50px 20px;
+}
+
+.supporting a {
+  background-color: #4C89FF;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 2px solid #F0AA00;
+}
+
+/* #work .supporting h2{
+  text-align: center;
+  margin-bottom: 2.4375rem;
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ff8000;
+}
+
+.item{
+  max-width: 1200;
+  margin: 0px auto;
+  padding: 0 auto;
+  text-align: center;
+}
+.item h2{
+  font-size: 50px;
+  font-weight: 600;
+  color: #ff8000;
+}
+.supporting {
+  
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 250px;
+  display: inline-block;
+  padding: 50px 20px;
+}
+
+.col img {
+  height: 100px;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-family: "Merriweather"
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: #4C89FF;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 2px solid #F0AA00;
+} */
+
+.supporting a:hover{
+    background-color: #E57F00;
+    border: 2px solid #4C89FF;
+}
+
+#teams{
+  margin-top: -17px;
+  margin-bottom: 20px;
+  padding-top: 57px ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/arch.jpg");
+}
+
+.teams-container{
+  box-sizing: border-box;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.member{
+  margin: 10px auto;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.row {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.column {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px 10px;
+  text-align: center;
+}
+#teams .menu-section h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Merienda", sans-serif;
+  color: #fff;
+}
+#teams h2{
+  font-family: "Hammersmith One", serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  border: 2px solid #4C89FF;
+  background-color: #4C89FF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card .container{
+
+}
+.card p {
+  font-size: 14px;
+}
+.card img{
+  background-color: rgba(240,255,240,0.75);
+  margin-top: 5px;
+  width: 160px;
+  height: 200px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #CFDDFF;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: #E57F00;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #A6DEE0;
+}
+
+
+.primary-footer {
+  font-family: "Hammersmith One";
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255,255,255,1);
+  background-image: url("../images/footer.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.primary-footer .contact p {
+  color: #fff;
+  font-size: 1rem;
+  font-height: 5px;
+  font-family: "Merienda";
+}

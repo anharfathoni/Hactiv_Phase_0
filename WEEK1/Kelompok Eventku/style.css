@@ -1,0 +1,336 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    color: white;
+    background-color: rgb(255, 168, 0);
+    width: 100%;
+    margin-bottom: 10px;
+    position: absolute;
+    padding: 20px 0px;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+main {
+    position: relative;
+    top: 90px;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(255, 168, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/eventbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-bottom: 220px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#banner img {
+    float: left;
+    width: 400px;
+}
+
+#banner a {
+    border-style: solid;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#banner .textbanner {
+    padding-top: 100px;
+}
+
+#about {
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#about p {
+    text-align: justify;
+    margin: 10px 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#about img {
+    float: right;
+    width: 50%;
+}
+
+#features {}
+
+#features .fitur {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bluebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+
+
+/* Mulai Features1*/
+
+#features1 {
+    background-color: #FF420E;
+    color: white;
+    padding: 0px 100px;
+}
+
+#features1 p {
+    padding-bottom: 150px;
+}
+
+#features1 h1 {
+    padding-top: 150px;
+}
+
+#features1 img {
+    padding-top: 60px;
+    margin-left: 30px;
+    float: right;
+}
+
+
+/* Selesai Features1*/
+
+
+/* Mulai Features2*/
+
+#features2 {
+    background-color: #89da59;
+    color: white;
+    text-align: right;
+    padding: 0px 100px;
+}
+
+#features2 p {
+    padding-bottom: 150px;
+}
+
+#features2 h1 {
+    padding-top: 150px;
+}
+
+#features2 img {
+    padding-top: 60px;
+    margin-right: 30px;
+    float: left;
+}
+
+
+/* Selesai Features1*/
+
+
+/* Mulai Features1*/
+
+#features3 {
+    background-color: #F98866;
+    color: white;
+    padding: 0px 100px;
+}
+
+#features3 p {
+    padding-bottom: 150px;
+}
+
+#features3 h1 {
+    padding-top: 150px;
+}
+
+#features3 img {
+    padding-top: 60px;
+    margin-left: 30px;
+    float: right;
+}
+
+
+/* Selesai Features1*/
+
+#teams {
+    background-image: linear-gradient(rgba(255, 168, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/eventbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 400px;
+}
+
+#teams div {
+    float: left;
+    width: 25%;
+}
+
+#download {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/bluebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+#download h1 {
+    padding: 50px;
+}
+
+#download div {
+    float: left;
+    width: 50%;
+}
+
+#download img {
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    margin-top: 85px;
+    background-color: #14264f;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+/*Media Queries - supaya responsive*/
+
+@media(max-width: 860px) {
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        text-align: center;
+        z-index: 1;
+    }
+    header h1 {
+        float: none;
+    }
+    header nav {
+        float: none;
+    }
+    main {
+        position: relative;
+    }
+    #banner img {
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+    }
+    #banner a {
+        border-style: solid;
+        color: white;
+        text-decoration: none;
+        padding: 5%;
+    }
+    #banner .textbanner {
+        text-align: center;
+        padding-top: 0px;
+    }
+    #about img {
+        width: 100%;
+    }
+    #features {
+        text-align: center;
+    }
+    #features1 img {
+        float: none;
+        display: block;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+    }
+    #features2 {
+        text-align: center;
+    }
+    #features2 img {
+        float: none;
+        display: block;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+    }
+    #features3 img {
+        float: none;
+        display: block;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+    }
+    #teams div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    #download {
+        padding-bottom: 500px;
+    }
+    #download div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    #teams {
+        padding-bottom: 1600px;
+    }
+}
