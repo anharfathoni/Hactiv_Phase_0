@@ -379,3 +379,4 @@ function xo(str) {
     console.log(counto)
     return (countx == counto)
 }
+
